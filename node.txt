@@ -1,0 +1,16 @@
+git --version
+echo test>touch index.html
+git init
+git config --global user.name "dx"
+git config --global user.email "123456@qq.com"
+git status
+git add index.html
+git commit => {
+    进入vim编辑器
+    c 进入编辑状态
+    Esc 退出编辑状态
+    两次大写字母Z 退出vim编辑器
+}
+git rm --cached index.html
+添加所有文件 git add .
+添加所有js文件 git add *.js
