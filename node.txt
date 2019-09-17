@@ -15,7 +15,14 @@ git commit -m "change app.js"
 git rm --cached index.html
 添加所有文件 git add .
 添加所有js文件 git add *.js
-
+创建分支 =>{
+    如创建一个登录页面：git branch login
+    切换到已经创建的分支：git checkout login 
+    创建登录页面：echo test>login.html
+    添加...提交...
+    切换到主线：git checkout master
+} 
+切换到主线 合并分支与主线：git merge login
     
  
 
