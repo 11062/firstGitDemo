@@ -16,4 +16,7 @@ git rm --cached index.html
 添加所有文件 git add .
 添加所有js文件 git add *.js
 
+    
+ 
+
 
